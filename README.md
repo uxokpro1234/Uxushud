@@ -15,3 +15,4 @@
 <br>
 <h2>Feedback from my friends</h2>
 <img src="https://cdn.discordapp.com/attachments/666308133718589453/1126507254900867122/image.png">
+![Profile views](https://some-badge-service.com/badge.svg)
