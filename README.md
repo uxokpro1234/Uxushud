@@ -18,3 +18,12 @@
 <br>
 <h2>Feedback from my friends</h2>
 <img src="https://cdn.discordapp.com/attachments/666308133718589453/1126507254900867122/image.png">
+<br>
+
+## Build
+To build from source, follow these steps:
+
+- Open a terminal and clone the repository using git clone https://github.com/uxokpro1234/Uxushud.
+- Go into this directory using cd <location of cloned repo>.
+- Run ./gradlew build on linux or macos or gradlew build on windows.
+- Get the mod file from the /build/libs folder.
