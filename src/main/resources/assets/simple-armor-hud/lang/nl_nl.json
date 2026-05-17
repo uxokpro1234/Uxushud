@@ -1,0 +1,12 @@
+{
+  "key.armorhud.armorvisible": "Zet harnas-hud aan/uit",
+  "category.armorhud.toggles": "Simple armor hud",
+
+  "config.doublehotbar": "Double Hotbar",
+  "config.bettermounthud": "Better Mount Hud",
+  "config.armorvisible": "Harnas-hud zichtbaar",
+  "config.disablearmorbar": "Harnasbalk uitzetten",
+
+  "config.righttoleft": "Rechts naar links display",
+  "config.done": "Gereed"
+}

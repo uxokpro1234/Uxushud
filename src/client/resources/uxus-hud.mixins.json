@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "me.uxokpro1234.uxushud.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "InGameHudMixin",
+    "CameraMixin",
+    "IgnoreTeamPacketMixin",
+    "MixinGameRenderer",
+    "MixinNetworkPlayHandler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
