@@ -5,6 +5,7 @@
 
 <p>I didn't plan to publish this mod, but my friends inspired me to do so. This mod has unique features that other custom hud mods don't have. </p>
 <p>Report bugs and issues, and they will be fixed.Also, you can give me ideas on new hud elements. Note that ive alr slowly developing hudeditor gui for my mod.</p>
+<img src ="mod.png">
 
 <br>
 
