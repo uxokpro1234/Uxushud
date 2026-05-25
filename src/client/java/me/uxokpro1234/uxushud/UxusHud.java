@@ -1,16 +1,12 @@
 package me.uxokpro1234.uxushud;
 
 import me.uxokpro1234.uxushud.gui.HudEditor;
-import me.uxokpro1234.uxushud.utils.TPSHud;
-import me.uxokpro1234.uxushud.utils.Utils;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
-import net.fabricmc.fabric.api.client.networking.v1.ClientConfigurationNetworking;
 import net.fabricmc.loader.api.FabricLoader;
 
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.ChatScreen;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
@@ -61,7 +57,6 @@ public class UxusHud implements ClientModInitializer {
     public static int tpsy = 60;
 
     public static int color = 0xFF55FFFF;
-    DrawContext context;
     public static final KeyBinding GUI_KEY =
             KeyBindingHelper.registerKeyBinding(new KeyBinding("key.uxus.gui", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_RIGHT_SHIFT, KeyBinding.Category.MISC));
     @Override
@@ -73,7 +68,6 @@ public class UxusHud implements ClientModInitializer {
     /*
      * Config loading
      */
-
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
 
             while (GUI_KEY.wasPressed()) {
