@@ -10,7 +10,7 @@
 <br>
 
 <h2>Why my mod is good?</h2>
-<p>It doesn't require 3rd party mods.</p>p
+<p>It doesn't require 3rd party mods.</p>
 <p>Also, my mod has SpectatorCameraClip, which allows your camera to clip trough blocks while you're in a specator mode. It can be used to clip your friends pov. Literaly haha.</p>
 <img width=50% height=50% src="https://cdn.discordapp.com/attachments/1057628134750556181/1126487220560330783/image.png">
 
