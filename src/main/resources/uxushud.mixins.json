@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.uxokpro1234.uxushud.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "IgnoreTeamPacketMixin",
+    "InGameHudMixin",
+    "MixinGameRenderer",
+    "MixinNetworkPlayHandler",
+    "PotionHudMixin",
+    "ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
